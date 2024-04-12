@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projeto-0123"
+version = "0.1.0"
+description = "Workshop #1 de 2023 | Como estruturar seu projeto de dados do zero"
+authors = ["Rafael <rafaelrodriguesdsa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
