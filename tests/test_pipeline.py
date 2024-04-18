@@ -10,9 +10,12 @@ def test_concat_dataframe_list():
     """
     # arrange
     dataframe_list = [df_1, df_2]
+    dataframe_list2 = pd.concat(dataframe_list, ignore_index=True)
 
     # act
     result = concat_dataframe(dataframe_list)
 
     # assert
     assert result.shape == (4, 2)
+    assert dataframe_list2.equals(result)
+    assert result.shape != (5, 2)
