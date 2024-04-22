@@ -1,0 +1,27 @@
+site_name: Projeto estrtura de dados do zero
+theme:
+  name: material
+  palette:
+    primary: deep blue
+  language: pt
+
+repo_name: "lvgalvao/datalake-format-explorer"
+repo_url: "https://github.com/lvgalvao/datalake-format-explorer"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+nav:
+  - Home: index.md
+  - API: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
