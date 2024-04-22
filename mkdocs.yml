@@ -1,12 +1,12 @@
 site_name: Projeto estrtura de dados do zero
 theme:
-  name: material
-  palette:
+  name: bootstrap386
+  palette:  
     primary: deep blue
   language: pt
 
-repo_name: "lvgalvao/datalake-format-explorer"
-repo_url: "https://github.com/lvgalvao/datalake-format-explorer"
+repo_name: "Rafael07/projeto_0123"
+repo_url: "https://github.com/Rafael07/projeto_0123"
 
 markdown_extensions:
   - pymdownx.superfences:
